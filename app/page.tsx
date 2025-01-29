@@ -3,7 +3,7 @@ import NewArrival from "@/components/Home/NewArrival";
 import ProductSet1 from "@/components/Home/ProductSet1";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
             <p className="text-2xl font-medium ">Subscribe to our Newslater</p>
             <div className="cursor-pointer p-2 border-2 border-white flex justify-between items-center">
               <p>Email</p>
+              <FaArrowRight />
             </div>
           </div>
       </footer>
