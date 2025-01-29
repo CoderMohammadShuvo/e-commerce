@@ -33,13 +33,10 @@ export default function Home() {
               <h1 className="text-xl font-bold">About us</h1>
               <p>Our mission</p>
               <p>Our vision</p>
-              <p>terms of Service</p>
             </div>
             <div>
-              <h1 className="text-xl font-bold">Our Policies</h1>
-              <p>Privacy policy</p>
-              <p>Refund policy</p>
-              <p>terms of Service</p>
+              <h1 className="text-xl font-bold">Our Slogan</h1>
+              <p>Fashion That Defines You and boost confidence</p>
             </div>
           </div>
       </footer>
