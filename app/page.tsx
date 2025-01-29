@@ -22,6 +22,14 @@ export default function Home() {
               <FaArrowRight />
             </div>
           </div>
+          <div className="grid grid-cols-3 gap-12 w-5/6 mx-auto">
+            <div>
+              <h1 className="text-xl font-bold">Our Policies</h1>
+              <p>Privacy policy</p>
+              <p>Refund policy</p>
+              <p>terms of Service</p>
+            </div>
+          </div>
       </footer>
     </div>
   );
