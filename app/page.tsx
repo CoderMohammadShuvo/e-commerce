@@ -4,7 +4,8 @@ import ProductSet1 from "@/components/Home/ProductSet1";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
-
+import { BsFacebook } from "react-icons/bs";
+import { GrYoutube } from "react-icons/gr";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -38,6 +39,11 @@ export default function Home() {
               <h1 className="text-xl font-bold">Our Slogan</h1>
               <p>Fashion That Defines You and boost confidence</p>
             </div>
+          </div>
+          {/* SOCIAL---- */}
+          <div className="w-1/3 mx-auto text-center flex gap-4 justify-center">
+             <BsFacebook />
+             <GrYoutube />
           </div>
       </footer>
     </div>
