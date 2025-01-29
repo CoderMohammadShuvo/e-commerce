@@ -10,7 +10,7 @@ export default function Banner() {
 
   return (
     <main className="text-white">
-        
+        <Image src={banner1}  alt='banner-img'/>
     </main>
   );
 }
