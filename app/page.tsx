@@ -6,6 +6,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
 import { GrYoutube } from "react-icons/gr";
+import { IoIosArrowDown } from "react-icons/io";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -44,6 +45,14 @@ export default function Home() {
           <div className="w-1/3 mx-auto text-center flex gap-4 justify-center">
              <BsFacebook />
              <GrYoutube />
+          </div>
+          {/* LANGUAGE---- */}
+          <div>
+            <p>Language</p>
+            <div className="cursor-pointer p-2 border-2 border-white flex justify-between items-center">
+              <p>English</p>
+              <IoIosArrowDown />
+            </div>
           </div>
       </footer>
     </div>
