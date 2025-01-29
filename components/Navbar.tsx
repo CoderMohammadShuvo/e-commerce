@@ -17,12 +17,12 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const navOptions = [
     { id: 1, title: "NEW ARRIVAL", link: "/new-arrival" },
-    { id: 1, title: "Polo Shirt", link: "/polo-shirt" },
-    { id: 1, title: "Shirt", link: "/shirt" },
-    { id: 1, title: "Winter", link: "/winter" },
-    { id: 1, title: "Jeans", link: "/jeans" },
-    { id: 1, title: "Panjabi", link: "/panjabi" },
-    { id: 1, title: "Combo", link: "/combo" },
+    { id: 2, title: "Polo Shirt", link: "/polo-shirt" },
+    { id: 3, title: "Shirt", link: "/shirt" },
+    { id: 4, title: "Winter", link: "/winter" },
+    { id: 5, title: "Jeans", link: "/jeans" },
+    { id: 6, title: "Panjabi", link: "/panjabi" },
+    { id: 7, title: "Combo", link: "/combo" },
   ];
 
   return (
