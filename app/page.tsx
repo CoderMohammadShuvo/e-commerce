@@ -53,6 +53,7 @@ export default function Home() {
               <p>English</p>
               <IoIosArrowDown />
             </div>
+            <p>© 2025, Captain Fashion Bd Powered by Shopify</p>
           </div>
       </footer>
     </div>
