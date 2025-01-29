@@ -9,8 +9,8 @@ export default function Banner() {
 
 
   return (
-    <main className="text-white">
-        <Image src={banner1}  alt='banner-img'/>
+    <main className="text-white w-5/6 mx-auto">
+        <Image width={1600} src={banner1}  alt='banner-img'/>
     </main>
   );
 }

@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
             {/* MENU---OPTIONS---- */}
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center  mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? "p-12 md:p-0 block" : "hidden"
               } `}
             >
@@ -71,7 +71,7 @@ export default function Navbar() {
                 {navOptions.map((item) => (
                   <li
                     key={item.id}
-                    className="text-sm text-white py-6 md:mx-6 text-center border-b-2 md:border-b-0 hover:text-yellow-300 "
+                    className="text-sm text-white py-2 md:mx-6 text-center border-b-2 md:border-b-0 hover:text-yellow-300 "
                   >
                     <Link href={item.link} onClick={() => setNavbar(!navbar)}>
                       {" "}
