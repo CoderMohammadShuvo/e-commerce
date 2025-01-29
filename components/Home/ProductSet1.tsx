@@ -7,17 +7,6 @@ import p6 from '../../components/Images/products/6.jpeg';
 import p7 from '../../components/Images/products/7.jpeg';
 import p8 from '../../components/Images/products/8.jpeg';
 import p9 from '../../components/Images/products/9.jpeg';
-import p10 from '../../components/Images/products/10.jpeg';
-import p11 from '../../components/Images/products/11.jpeg';
-import p12 from '../../components/Images/products/12.jpeg';
-import p13 from '../../components/Images/products/13.jpeg';
-import p14 from '../../components/Images/products/14.jpeg';
-import p15 from '../../components/Images/products/15.jpeg';
-import p16 from '../../components/Images/products/16.jpeg';
-import p17 from '../../components/Images/products/17.jpeg';
-import p18 from '../../components/Images/products/18.jpeg';
-import p19 from '../../components/Images/products/19.jpeg';
-import p20 from '../../components/Images/products/20.jpeg';
 import Image from 'next/image';
 const products = [
     {
