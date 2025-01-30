@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Logo from "../components/Images/logo-ecommerce.png";
-import hamburger from "../components/images/ham-burger.png";
-import close from "../components/images/close.png";
+import hamburger from "../components/Images/ham-burger.png";
+import close from "../components/Images/close.png";
 import {
   Select,
   SelectContent,
