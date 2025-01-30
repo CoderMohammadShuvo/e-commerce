@@ -9,8 +9,8 @@ export default function Banner() {
 
 
   return (
-    <main className="text-white w-5/6 mx-auto">
-        <Image width={1600} src={banner1}  alt='banner-img'/>
+    <main className="text-white w-5/6 mx-auto py-10">
+        <Image width={1600} src={banner1}  alt='banner-img' className='mt-[100px] lg:max-w-7xl mx-auto'/>
     </main>
   );
 }
